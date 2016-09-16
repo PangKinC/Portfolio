@@ -23,10 +23,10 @@ $message = $_POST['message'];
 $subject = $_POST['subject'];
  
 // create email body and send it
-$to = 'kinchungpang@gmail.com'; // PUT YOUR EMAIL ADDRESS HERE
+$to = 'suijin@hotmail.co.uk'; // PUT YOUR EMAIL ADDRESS HERE
 $email_subject = "Subject:  $subject"; // EDIT THE EMAIL SUBJECT LINE HERE
 $email_body = "You have received a new message from your website's contact form.\n\n"."Here are the details:\n\nName: $name\n\nPhone: $phone\n\nEmail: $email_address\n\nMessage:\n$message";
-$headers = "From: kinchungpang@gmail.com\n";
+$headers = "From: kinpang.co.uk\n";
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;
