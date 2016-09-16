@@ -21,6 +21,18 @@ ul.links li a{
   color: #000000 !important;
 }
 
+.popover-title {
+    display: none;
+    color: black;
+    font-size: 15px;
+}
+
+.popover-content {
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}
+
 .bg{
 	background: url(../img/bg1.jpg);
 	background-size: cover;
