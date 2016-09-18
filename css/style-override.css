@@ -33,8 +33,8 @@ ul.links li a{
     font-style: italic;
 }
 
-.bg{
-	background: url(../img/bg1.jpg);
+#home{
+	background: url(../img/background/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -45,13 +45,52 @@ ul.links li a{
 	color: #ffffff;
 }
 
+#others{
+	background: url(../img/background/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+	min-height: 710px;	
+	padding-top: 60px;
+	color: #ffffff;
+}
+
+#works{
+	background: url(../img/background/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+	min-height: 710px;	
+	padding-top: 60px;
+	color: #ffffff;
+}
+
+.modal-header{
+    color:black !important;
+}
+
+.modal-body{
+    color: black !important;
+}
+
 nav#menu span.fa.fa-bars{
 	font-size: 30px !important;
 	position: fixed !important;
 	left: 120px !important;
-	color: #000000 !important;
+	color: #58d68d !important;
 	cursor: pointer !important;
 	z-index: 1 !important;
+}
+
+.navmenu-default, 
+.navbar-default .navbar-offcanvas {
+	background-color: 58d68d; 
+	border-color: 58d68d; 
+	border: 0;
 }
 
 nav#menu span.fa.bars:hover {
@@ -92,6 +131,6 @@ a.down-btn span.fa.fa-angle-down {
 	padding: 7px 5px;
 	position: relative;
 	margin-top: 100px;
-	color: #ffffff;
+	color: #58d68d !important;
 	cursor: pointer;
 }
