@@ -21,6 +21,10 @@ ul.links li a{
   color: #000000 !important;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 .popover-title {
     display: none;
     color: black;
