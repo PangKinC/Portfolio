@@ -387,7 +387,7 @@
                                     <p class="lead clickable" data-toggle="modal" data-target="#word">Word Guessing Game</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/projects/pj1.jpg" class="img-responsive" alt="Word Guessing Game">
+                                <img src="img/projects/pj1.jpg" width="620" height="290" class="img-responsive" alt="Word Guessing Game">
                         </div>
                     </div>
                 </div>
@@ -408,8 +408,11 @@
                     <div class="modal-body">    
                         <div class="container-fluid bd-example-row">
                         <div class="row">
-                            <div class="col-md-5">
-                                <h2> Overview </h2>
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="modal-title text-center"> Overview </h2>
+                                <div class="col-md-11 col-md-offset-1">
                                 <p> For this project, I created a simple word guessing game very similar to the popular game: Hangman.
                                     The objective of the game is to try get the highest score possible by the end after going through a set list of words.
                                 </p>
@@ -417,30 +420,30 @@
                                     In order to do this, the user should aim to not get any wrong guesses with incorrect letters to maintain a multiplier. <br>
                                     They should also should try guess the word as quick as possible for a higher score, and finally there's also one more multiplier for getting consecutive correct word guesses.
                                 </p>
-                                <h2> Future Scope </h2>
+                                </div>
+                                <h2 class="modal-title text-center"> Future Scope </h2>
                                 <div class="col-md-11 col-md-offset-1">
                                     <ul>
                                         <li> Apply more front-end programming (CSS / HTML) to make things more graphically appealing. </li>
                                         <li> Create a database that logs the highest score gotten from the playerbase. </li>
                                     </ul>  
                                 </div>
-                                <h2> Languages Used </h2>
+                                <h2 class="modal-title text-center"> Languages Used </h2>
                                 <div class="col-md-11 col-md-offset-1">
                                     <ul>
                                         <li> C#, ASP.NET Web Forms, HTML, CSS </li>
                                     </ul>  
                                 </div>             
                             </div>
-                            <div class="col-md-7">
-                                <img src="img/projects/pj1.jpg" class="img-responsive" width="600" height="600" alt="Word Guessing Game">
-                            </div>    
+                        <div class="col-md-2">
+                            </div>
                         </div>
                     </div>
                     </div>    
                     <div class="modal-footer">
                         <div class="row text-center">
-                            <a href="#" button type="button" class="btn btn-default"> Open Project </a>
-                            <a href="https://github.com/PangKinC/Projects/blob/master/WordGame/Default.aspx.cs" button type="button" class="btn btn-default"> Source Code </a>
+                            <a href="http://www.kinpang.kinwordproject.com" button type="button" class="btn btn-default"> Open Project </a>
+                            <a href="https://github.com/PangKinC/Projects/tree/master/WordGame" button type="button" class="btn btn-default"> Source Code </a>
                         </div>    
                     </div>
                 </div>
@@ -451,28 +454,83 @@
                 <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
                                 <div class="hover-text">
-                                    <h5>???</h5>
-                                    <p class="lead clickable">Coming Soon!</p>
+                                    <h5>C# ASP.NET MVC</h5>
+                                    <p class="lead clickable" data-toggle="modal" data-target="#rest"> Restaurant Locator</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/projects/question.jpg" class="img-responsive" alt="Coming Soon!">
-                            </a>
+                                <img src="img/projects/pj2.jpg" width="620" height="290" class="img-responsive" alt="Restaurant Locator">
                         </div>
                     </div>
                 </div>
+                
+                                <!-- Modal -->
+            <div class="modal fade" id="rest" role="dialog">
+                <div class="modal-dialog modal-lg">
+    
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title text-center">C# ASP.NET MVC</h4>
+                        <h5 class="modal-title text-center">Restaurant Locator</h5>
+                    </div>
+                    <div class="modal-body">    
+                        <div class="container-fluid bd-example-row">
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="modal-title text-center"> Overview </h2>
+                                <div class="col-md-11 col-md-offset-1">
+                                <p> For my second project, this time I attempted to use ASP.NET with the MVC (Model View Controller) design pattern. <br>
+                                    I used in conjuction with this a database generated in SQL using SQL Management Studio, the project basically stores a list of different restaurants inside 
+                                    a table specifically tailored towards it. 
+                                </p>
+                                <p>
+                                    The main feature of this project is it has a action which by taking in the latitude and longitude of a address, a user can first search for his address location and if it's found would then move to a page showing a Google Map with every restaurant located nearby said address. The amount of restaurant on the page is of course the same ones we stored in the database, and henceforth can be expanded much more in the future.
+                                </p>
+                                </div>
+                                <h2 class="modal-title text-center"> Future Scope </h2>
+                                <div class="col-md-11 col-md-offset-1">
+                                    <ul>
+                                        <li> Apply more front-end programming (CSS / HTML) to make things both more graphically appealing and interactive. </li>
+                                        <li> Flesh out the log in system feature, making sure it follows all general security protocols. </li>
+                                        <li> Create a star-rating system to determine how popular a restaurant is by calculating the average. </li>
+                                    </ul>  
+                                </div>
+                                <h2 class="modal-title text-center"> Languages Used </h2>
+                                <div class="col-md-11 col-md-offset-1">
+                                    <ul>
+                                        <li> C#, ASP.NET MVC, HTML, CSS </li>
+                                    </ul>  
+                                </div>             
+                            </div>
+                        <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    </div>    
+                    <div class="modal-footer">
+                        <div class="row text-center">
+                            <a href="http://www.kinpang.kinresdbproject.com" button type="button" class="btn btn-default"> Open Project </a>
+                            <a href="https://github.com/PangKinC/Projects/tree/master/RestaurantLocator" button type="button" class="btn btn-default"> Source Code </a>
+                        </div>    
+                    </div>
+                </div>
+      
+                </div>
+            </div>
+                
                 <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
                                 <div class="hover-text">
                                     <h5>???</h5>
                                     <p class="lead clickable">Coming Soon!</p>
                                     <div class="hline"></div>
                                 </div>
-                            </a>
-                            <img src="img/projects/question.jpg" class="img-responsive" alt="Cooming Soon!">
+                            <img src="img/projects/question.jpg" width="620" height="290" class="img-responsive" alt="Cooming Soon!">
                         </div>
                     </div>
                 </div>
