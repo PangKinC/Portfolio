@@ -85,7 +85,7 @@ nav#menu span.fa.fa-bars{
 	font-size: 30px !important;
 	position: fixed !important;
 	left: 120px !important;
-	color: #58d68d !important;
+	color: #6666ff !important;
 	cursor: pointer !important;
 	z-index: 1 !important;
 }
@@ -130,11 +130,11 @@ a.down-btn span.fa.fa-angle-down {
 
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid #c59a6d;
+	border: 1px solid #6666ff !important;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
 	margin-top: 100px;
-	color: #58d68d !important;
+	color: #6666ff !important;
 	cursor: pointer;
 }
