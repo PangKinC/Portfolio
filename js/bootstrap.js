@@ -1779,6 +1779,18 @@ if (typeof jQuery === 'undefined') {
             o.content)
   }
 
+  Popover.prototype.getTitle = function () { // does now
+  var title
+    , $t = this.$element
+    , n = this.options
+
+  title = $t.attr('data-title')
+    || (typeof n.title == 'function' ? n.title.call($t[0]) : n.title)
+
+  return title
+}
+
+  
   Popover.prototype.arrow = function () {
     return (this.$arrow = this.$arrow || this.tip().find('.arrow'))
   }
@@ -1786,7 +1798,9 @@ if (typeof jQuery === 'undefined') {
   Popover.prototype.tip = function () {
     if (!this.$tip) this.$tip = $(this.options.template)
     return this.$tip
-  }
+  }*/
+  
+
 
 
   // POPOVER PLUGIN DEFINITION
